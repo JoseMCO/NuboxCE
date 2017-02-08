@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Nubox Automation",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Nubox automation",
+    "description": "The description of the application"
+  }
+}
