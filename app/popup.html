@@ -12,8 +12,25 @@
   </head>
   <body>
     <h3>Nubox Automation!</h3>
-    <input type="text" id="text" placeholder="Linea de excel">
-    <button id='button'>Automate!</button>
+    <div class='section'>
+        <input type="text" id="text" placeholder="Linea de excel">
+        <button id='button'>Automate!</button>
+    </div>
+
+    <div class='section'>
+        <h4>Movimientos Comprobantes</h4>
+        <div class="subsection">
+            <input id="comp_val" placeholder="Total"></input>
+            <button id='comp_in_button'>Ingreso</button>
+            <button id='comp_out_button'>Egreso</button>
+        </div>
+
+        <div class="subsection">
+            <textarea id="comp_aux_val" placeholder="datos"></textarea>
+            <button id='comp_aux_button'>Auxiliares</button>
+            <!-- <button id='comp_aux_button2'>Aux</button> -->
+        </div>
+    </div>
 
     <!-- build:js scripts/popup-vendor.js -->
     <!-- bower:js -->

@@ -1,7 +1,15 @@
 body {
   padding: 10px 5px;
   text-align: center;
-  input {
-  	margin-bottom: 10px;
+  input textarea{
+  	margin-bottom: 6px;
+  }
+  .section {
+  	margin-bottom: 5px;
+  	margin-top: 5px;
+  	
+  	.subsection {
+	  	margin-bottom: 10px;
+  	}
   }
 }
